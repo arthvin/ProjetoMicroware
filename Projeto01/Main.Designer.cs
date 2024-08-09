@@ -1,4 +1,4 @@
-﻿namespace Projeto01
+namespace Projeto01
 {
     partial class Main
     {
@@ -43,10 +43,25 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Nome = new System.Windows.Forms.Label();
+            this.txtTempoPrograma = new System.Windows.Forms.TextBox();
+            this.txtCaracterePrograma = new System.Windows.Forms.TextBox();
+            this.txtPotenciaPrograma = new System.Windows.Forms.TextBox();
+            this.txtAlimentoPrograma = new System.Windows.Forms.TextBox();
+            this.txtNomePrograma = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnPausaCancela = new System.Windows.Forms.Button();
             this.btnPotencia = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnInicioRapido
@@ -170,7 +185,7 @@
             // lblMicroondas
             // 
             this.lblMicroondas.AutoSize = true;
-            this.lblMicroondas.Location = new System.Drawing.Point(197, 415);
+            this.lblMicroondas.Location = new System.Drawing.Point(207, 432);
             this.lblMicroondas.Name = "lblMicroondas";
             this.lblMicroondas.Size = new System.Drawing.Size(44, 16);
             this.lblMicroondas.TabIndex = 12;
@@ -183,14 +198,14 @@
             this.panel1.Controls.Add(this.button13);
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button11);
-            this.panel1.Location = new System.Drawing.Point(816, 0);
+            this.panel1.Location = new System.Drawing.Point(816, 415);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(268, 348);
+            this.panel1.Size = new System.Drawing.Size(268, 298);
             this.panel1.TabIndex = 13;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(165, 196);
+            this.button15.Location = new System.Drawing.Point(170, 174);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 4;
@@ -200,7 +215,7 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(61, 277);
+            this.button14.Location = new System.Drawing.Point(66, 255);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(141, 23);
             this.button14.TabIndex = 3;
@@ -210,7 +225,7 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(28, 196);
+            this.button13.Location = new System.Drawing.Point(33, 174);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
             this.button13.TabIndex = 2;
@@ -220,7 +235,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(165, 79);
+            this.button12.Location = new System.Drawing.Point(170, 57);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 1;
@@ -230,7 +245,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(28, 79);
+            this.button11.Location = new System.Drawing.Point(33, 57);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 0;
@@ -240,10 +255,131 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.Nome);
+            this.panel2.Controls.Add(this.txtTempoPrograma);
+            this.panel2.Controls.Add(this.txtCaracterePrograma);
+            this.panel2.Controls.Add(this.txtPotenciaPrograma);
+            this.panel2.Controls.Add(this.txtAlimentoPrograma);
+            this.panel2.Controls.Add(this.txtNomePrograma);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(810, 348);
+            this.panel2.Size = new System.Drawing.Size(1292, 412);
             this.panel2.TabIndex = 14;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 262);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1081, 150);
+            this.dataGridView1.TabIndex = 18;
+            // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(39, 206);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 16);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Tempo";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(39, 168);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(164, 16);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "caractere de aquecimento";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(39, 123);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 16);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Potencia";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(39, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Alimento";
+            // 
+            // Nome
+            // 
+            this.Nome.AutoSize = true;
+            this.Nome.Location = new System.Drawing.Point(39, 42);
+            this.Nome.Name = "Nome";
+            this.Nome.Size = new System.Drawing.Size(44, 16);
+            this.Nome.TabIndex = 13;
+            this.Nome.Text = "Nome";
+            // 
+            // txtTempoPrograma
+            // 
+            this.txtTempoPrograma.Location = new System.Drawing.Point(210, 209);
+            this.txtTempoPrograma.Name = "txtTempoPrograma";
+            this.txtTempoPrograma.Size = new System.Drawing.Size(851, 22);
+            this.txtTempoPrograma.TabIndex = 6;
+            // 
+            // txtCaracterePrograma
+            // 
+            this.txtCaracterePrograma.Location = new System.Drawing.Point(210, 165);
+            this.txtCaracterePrograma.Name = "txtCaracterePrograma";
+            this.txtCaracterePrograma.Size = new System.Drawing.Size(851, 22);
+            this.txtCaracterePrograma.TabIndex = 5;
+            this.txtCaracterePrograma.DragLeave += new System.EventHandler(this.txtCaracterePrograma_DragLeave);
+            // 
+            // txtPotenciaPrograma
+            // 
+            this.txtPotenciaPrograma.Location = new System.Drawing.Point(210, 123);
+            this.txtPotenciaPrograma.Name = "txtPotenciaPrograma";
+            this.txtPotenciaPrograma.Size = new System.Drawing.Size(851, 22);
+            this.txtPotenciaPrograma.TabIndex = 4;
+            // 
+            // txtAlimentoPrograma
+            // 
+            this.txtAlimentoPrograma.Location = new System.Drawing.Point(210, 76);
+            this.txtAlimentoPrograma.Name = "txtAlimentoPrograma";
+            this.txtAlimentoPrograma.Size = new System.Drawing.Size(851, 22);
+            this.txtAlimentoPrograma.TabIndex = 3;
+            // 
+            // txtNomePrograma
+            // 
+            this.txtNomePrograma.Location = new System.Drawing.Point(210, 39);
+            this.txtNomePrograma.Name = "txtNomePrograma";
+            this.txtNomePrograma.Size = new System.Drawing.Size(851, 22);
+            this.txtNomePrograma.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(778, 237);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(283, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(336, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cadastro de programas de aquecimento customizados";
             // 
             // btnIniciar
             // 
@@ -301,6 +437,9 @@
             this.Name = "Main";
             this.Text = "Pojeto Benner";
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -331,6 +470,19 @@
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnPausaCancela;
         private System.Windows.Forms.Button btnPotencia;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Nome;
+        private System.Windows.Forms.TextBox txtTempoPrograma;
+        private System.Windows.Forms.TextBox txtCaracterePrograma;
+        private System.Windows.Forms.TextBox txtPotenciaPrograma;
+        private System.Windows.Forms.TextBox txtAlimentoPrograma;
+        private System.Windows.Forms.TextBox txtNomePrograma;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
